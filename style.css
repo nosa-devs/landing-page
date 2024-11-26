@@ -85,8 +85,15 @@ header {
     color: #E5E7EB;
 }
 
+#hero span {
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+    text-decoration: underline dotted;
+}
 .hero-content {
     display: flex;
+    gap: 3rem;
 }
 
 .hero-text {
@@ -95,9 +102,11 @@ header {
     gap: 1.5rem;
 }
 
-.hero-image {
+#hero img {
     width: 50%;
     background-color: gray;
+    border:  1px yellow solid;
+    border-radius: 10px;
 }
 
 /* Random */
@@ -111,11 +120,11 @@ header {
    gap: 2rem;
 }
 
-.card-img {
+.card img {
     border: 2px solid #3882F6;
     border-radius: 10px;
-    width: 100%;
-    height: 150px;
+    flex-grow: 1;
+    height: 200px;
     margin-bottom: 0.5rem;
 }
 
